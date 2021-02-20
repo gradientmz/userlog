@@ -1,6 +1,21 @@
 .App {
   text-align: center;
   padding: 15px;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: normal;
+  color: dimgray;
 }
 
 .App-logo {
