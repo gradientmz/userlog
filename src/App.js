@@ -16,6 +16,8 @@ class App extends Component {
   }
 
   componentDidMount() {
+    document.title = "Userlog";
+
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
       .then((users) => this.setState({ userList: users }));
@@ -33,7 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <SearchBox
-          placeholder="search users"
+          placeholder="Search users"
           handleChange={(e) => this.setState({ searchField: e.target.value })}
         />
         <CardList userList={filteredUsers} />

@@ -7,7 +7,7 @@ export const Card = (props) => (
       alt="user"
       src={`https://avatars.dicebear.com/api/male/:${props.user.name}.svg`}
     />
-    <h2> {props.user.name} </h2>
+    <h1> {props.user.name} </h1>
     <p> {props.user.email} </p>
   </div>
 );
