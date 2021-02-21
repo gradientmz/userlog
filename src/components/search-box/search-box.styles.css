@@ -1,12 +1,11 @@
 .search {
-  border: none;
+  border: lightgray solid 3px;
   font-size: large;
   outline: none;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 20px;
-  width: 300px;
+  margin: 20px auto;
   line-height: 30px;
   margin-bottom: 30px;
   background-color: whitesmoke;

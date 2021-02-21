@@ -37,7 +37,7 @@ class App extends Component {
         <h1>Userlog</h1>
         <h2>A practice app with React by Mark Zhou</h2>
         <SearchBox
-          placeholder="Search users"
+          placeholder="Search users..."
           handleChange={(e) => this.setState({ searchField: e.target.value })}
         />
         <CardList userList={filteredUsers} />
