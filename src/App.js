@@ -41,6 +41,7 @@ class App extends Component {
           handleChange={(e) => this.setState({ searchField: e.target.value })}
         />
         <CardList userList={filteredUsers} />
+        <h3>My first React site, finished 2/20/2021</h3>
       </div>
     );
   }

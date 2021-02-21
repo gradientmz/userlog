@@ -18,6 +18,12 @@ h2 {
   color: dimgray;
 }
 
+h3 {
+  font-weight: normal;
+  color: dimgray;
+  margin: 40px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
